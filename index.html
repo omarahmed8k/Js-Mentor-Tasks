@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Age Calculator With Java Script">
+    <meta name="keywords" content="Age Calculator,Age,Calculator,Birthdate">
+    <meta name="author" content="Age Calculator">
+    <meta name="title" content="Age Calculator">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Enter Your Birthdate</h1>
+        <input id="age" type="date" min="1900-01-01" max="2020-01-01">
+        <div id="error"></div>
+        <input id="calculate" type="submit">
+    </div>
+    <div class="card">Your Age Is <span id="years"></span></div>
+    <div class="card">Your Motnths Is <span id="months"></span></div>
+    <div class="card">Your Days Is <span id="days"></span></div>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>

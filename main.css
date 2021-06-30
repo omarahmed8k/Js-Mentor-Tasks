@@ -1,0 +1,63 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px #00000030;
+    text-align: center;
+}
+
+@media (max-width:992px) {
+    .card {
+        width: 90%;
+    }
+}
+
+.card h1 {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.card #age {
+    border: unset;
+    border-bottom: 1px solid #121212;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #00000030;
+}
+
+.card #calculate {
+    border: 2px solid #ffab10;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #ffab10;
+    box-shadow: 0px 0px 5px #00000030;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.card #calculate:hover {
+    background-color: transparent;
+    border-color: #ffab10;
+}
+
+#error {
+    color: #ff0000;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 10px auto;
+}
