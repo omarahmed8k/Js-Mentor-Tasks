@@ -1,10 +1,10 @@
-document.getElementById("calculate").addEventListener("click", myFunction);
+document.getElementById("calculate").addEventListener("click", ageCalculator);
 let date = new Date();
 let day = date.getDate();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
 
-function myFunction() {
+function ageCalculator() {
     let userDate = document.getElementById('age').value;
     let date = new Date(userDate);
     let userMonth = date.getMonth() + 1;
