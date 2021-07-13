@@ -26,17 +26,17 @@
     margin: 15px auto;
     font-weight: 900;
     font-size: 16px;
-    animation-name: textIncreasing;
+    /* animation-name: textIncreasing;
     animation-fill-mode: forwards;
     animation-duration: 100s;
-    animation-delay: 1s;
+    animation-delay: 1s; */
 }
 
-@keyframes textIncreasing {
+/* @keyframes textIncreasing {
     from {
         font-size: 16px;
     }
     to {
         font-size: 116px;
     }
-}
+} */

@@ -1,0 +1,22 @@
+{
+  "name": "text-auto-increase",
+  "version": "1.0.0",
+  "description": "Text Auto Increase",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Omar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ],
+    "testEnvironment": "jsdom",
+    "coverageDirectory": "reports"
+  }
+}
